@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+
+/***************** header code start from here **********************/
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    position: fixed;
+}
+
+#logo {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 6px;
+    font-size: 35px;
+}
+
+/************** header code end here ****************/
+
+/************Slider code start from here****************/
+#slider {
+    width: 100%;
+    height: 600px;
+    float: left;
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 60px;
+}
+
+
+/************* slider code end here ***************/
+
+/************* product code start from here *****************/
+
+#product_main_box {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#product_title {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.product_box {
+    width: 23%;
+    height: 370px;
+    float: left;
+    margin-left: 1.58%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    margin-bottom: 1.5%;
+}
+
+.product_head {
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.product_image {
+    width: 100%;
+    height: 210px;
+    float: left;
+}
+
+.product_desc {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+/************* product code end from here **********************/
+
+/************** footer code start from here *******************/
+
+#footer {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+#footer_box_menu {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: blueviolet;
+}
+
+#footer_box_menu ul {
+    width: auto;
+    height: auto;
+    margin-left: 33.5%;
+    margin-top: 1%;
+}
+
+#footer_box_menu ul li {
+    width: auto;
+    height: auto;
+    float: left;
+    color: white;
+    padding: 12px;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: cambria;
+    cursor: pointer;
+}
+
+#footer_box_follow {
+    width: 100%;
+    height: 160px;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 35, 66);
+}
+
+#footer_box_follow p {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: Sitka Small Semibold;
+}
+
+#footer_box_follow span img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#footer_box_follow span img:hover {
+    cursor: pointer;
+}
+
+#company_name {
+    width: 100%;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 5px;
+    background-color: rgb(70, 22, 116);
+}
+
+
+
+
+/************************************* footer code end here -**************************/
+
+/********************************** Media query start from here *************************/
+
+@media(max-width:450px) and (min-width:300px) {
+    #header {
+        height: 50px;
+        position: fixed;
+    }
+
+    #logo {
+        width: 90%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #slider {
+        height: 250px;
+        margin-top: 50px;
+    }
+
+    #product_title {
+        height: 40px;
+    }
+
+    #product_title span {
+        font-size: 2px;
+        line-height: 5px;
+    }
+
+    .product_box {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    #footer {
+        margin-top: 15px;
+        height: 500px;
+    }
+
+    #footer_box_menu {
+        height: 250px;
+    }
+
+    #footer_box_menu ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer_box_menu ul li {
+        width: 100%;
+        text-align: center;
+        margin-left: -10px;
+        float: left;
+    }
+    #footer_box_follow {
+        height: 170px;
+    }
+    #company_name{
+        height: 80px;
+    }
+    #company_name span{
+        line-height: 25px;
+        font-size: 10px;
+    }
+}
